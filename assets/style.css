@@ -1,0 +1,99 @@
+
+/* =========================
+   Estilo base do corpo
+   ========================= */
+body {
+    margin: 0 auto;              /* Centraliza horizontalmente */
+    max-width: 1200px;           /* Largura máxima da página */
+    font-family: 'Poppins', sans-serif; /* Fonte padrão */
+}
+
+/* =========================
+   Containers gerais
+   ========================= */
+.container {
+    display: flex;
+    flex-direction: column;      /* Alinha os elementos verticalmente */
+}
+
+/* =========================
+   Cabeçalho e título
+   ========================= */
+.titulo {
+    display: flex;
+    flex-direction: row;         /* Alinha título e botão horizontalmente */
+    align-items: center;         /* Centraliza verticalmente */
+}
+
+.titulo h1 {
+    padding: 50px 50px 50px 0;  /* Espaçamento interno */
+    color: rgb(42, 66, 177);    /* Cor do texto */
+    font-size: 45px;             /* Tamanho do título */
+    height: 50px;                /* Altura do título */
+}
+
+/* Botão de cadastro no cabeçalho */
+.cadastro {
+    margin-left: auto;           /* Empurra o botão para a direita */
+}
+
+/* Linha decorativa abaixo do cabeçalho */
+.linha {
+    color: rgb(42, 66, 177);
+    max-width: 1200px;           /* Largura máxima */
+    margin-bottom: 60px;         /* Espaço abaixo da linha */
+}
+
+/* =========================
+   Campos de formulário
+   ========================= */
+.campos {
+    display: flex;
+    flex-direction: column;      /* Inputs empilhados verticalmente */
+}
+
+.inputs {
+    margin-top: 30px;            /* Espaço acima do input */
+    height: 50px;                /* Altura do campo */
+    border-radius: 7px;          /* Bordas arredondadas */
+    padding-left: 20px;          /* Espaço interno à esquerda */
+}
+
+/* =========================
+   Botões gerais
+   ========================= */
+.botoes {
+    display: flex;
+    flex-direction: row;         /* Alinha botões horizontalmente */
+}
+
+/* Estilo base para todos os botões */
+.botao {
+    margin-top: 30px;
+    height: 50px;
+    border-radius: 7px;
+    padding: 0 20px;
+    font-family: 'Poppins', sans-serif;
+    cursor: pointer;
+    background-color: rgb(42, 66, 177);
+    color: white;
+    border: none;
+    transition: 0.3s;
+}
+
+/* Efeito hover dos botões */
+.botao:hover {
+    color: rgb(42, 66, 177);    /* Muda a cor do texto ao passar o mouse */
+    background-color: white;    /* Sugestão: muda também a cor de fundo para destaque */
+}
+
+/* Botão "Limpar dados" */
+.botao_l {
+    margin-left: 20px;           /* Espaço entre o botão anterior */
+}
+
+/* Botão "Esqueci minha senha" */
+.botao_s {
+    margin-left: auto;           /* Empurra para a direita */
+    width: 250px;                /* Largura fixa */
+}

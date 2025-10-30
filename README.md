@@ -79,4 +79,4 @@
 📧 Contato
 
     Para dúvidas ou sugestões, entre em contato:
-    📧 seu-email@exemplo.com
+    📧 schulzpedroemanuel@gmail.com
